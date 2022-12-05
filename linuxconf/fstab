@@ -1,0 +1,5 @@
+/        /          ext4    defaults                              1 1
+/home    /home      ext4    defaults,nosuid,noexec,nodev          1 2
+/tmp     /tmp       ext4    defaults,bind,nosuid,noexec,nodev     1 2
+/var     /var       ext4    defaults,bind,nosuid                  1 2
+/boot    /boot      ext4    defaults,nosuid,noexec,nodev          1 2
