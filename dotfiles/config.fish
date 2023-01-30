@@ -1,3 +1,3 @@
-function fish_user_key_bindings
-  fish_vi_key_bindings
-end
+set fish_greeting
+set VIRTUAL_ENV_DISABLE_PROMPT "1"
+starship init fish | source
